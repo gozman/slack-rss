@@ -19,7 +19,7 @@ router.get('/:channel_name', function(req, res, next) {
   					ttl: '30',
   				});
 
-  				slack.api('channels.history', {'channel':channel.id} ,function(err, response){
+  				slack.api('channels.history', {'channel':channel.id,'count':process.env.HISTORY_LENGTH} ,function(err, response){
 			  		for(var i = 0; i < response.messages.length; i++) {
 			  			if(response.messages[i].attachments && response.messages[i].subtype != "bot_message") {  				
 				  			for(var j = 0; j < response.messages[i].attachments.length; j++) {

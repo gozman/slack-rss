@@ -7,6 +7,10 @@
     "SLACK_API_KEY" : {
       "description": "Your Slack Web API Key",
       "required": true
+    },
+    "HISTORY_LENGTH" : {
+      "description": "The number of messages to scan in the channel, 1000 max",
+      "required":true
     }
   }
 }
