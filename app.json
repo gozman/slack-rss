@@ -1,0 +1,12 @@
+{
+  "name": "Slack to RSS",
+  "description": "Create an RSS feed of links your team shares in a Slack channel",
+  "repository": "https://github.com/gozman/slack-rss",
+  "keywords": ["slack", "rss", "javascript", "heroku"],
+  "env": {
+    "SLACK_API_KEY" : {
+      "description": "Your Slack Web API Key",
+      "required": true
+    }
+  }
+}
