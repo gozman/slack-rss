@@ -13,7 +13,7 @@ That's why I decided to build this handy little web app that generates an RSS fe
 
 ### Get started in seconds
 
-To get started, simply grab your API token for your Slack team. You can generate it [here](https://api.slack.com/tokens).
+To get started, simply grab your API token for your Slack team. You can generate it [here](https://api.slack.com/web).
 
 Next simply clicking this button to Deploy to Heroku and you'll be up and running: <a href="https://heroku.com/deploy?template=https://github.com/gozman/slack-rss/tree/master"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a>
 
