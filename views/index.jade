@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p My team and I built an awesome way to #[a(href="https://supportkit.io/?utm_source=slack2rss") to chat with your web or mobile users from Slack] and I've grown to really love centralizing all of my work communication in Slack.
+  p Once you've set up Slack to RSS as #[a(href="https://github.com/gozman/slack-rss") described on github], you'll be able to get a collection of all recent links shared to your team's Slack channels so you can follow along on Feedly, Flipboard, or your favourite RSS reader.
+  p Get the RSS feed of links for a room by pointing your reader to http://#{address}/feed/CHANNEL-NAME 
+  p For example, if you wanted to get this list for your #general, you'd visit: http://#{address}/feed/general
+  p Need help? Want to chat? Follow or tweet me #[a(href="http://twitter.com/gozmike") @gozmike]
