@@ -17,6 +17,8 @@ To get started, simply grab your API token for your Slack team. You can generate
 
 Next simply clicking this button to Deploy to Heroku and you'll be up and running: <a href="https://heroku.com/deploy?template=https://github.com/gozman/slack-rss/tree/master"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy"></a>
 
-### Need help?
+### Want to build on this? Find a bug? Need help?
+
+Feel free to fork the code and mess with it however you wish. It's licensed under the MIT license. If you find a bug, just create a PR. I don't code very much these days and most of this implementation may be a little hackish, so I'd appreciate improvements if you have any.
 
 I'm not always able to answer quickly but I do try to help everyone out. Best way is to hit me up on [twitter](https://twitter.com/gozmike).
