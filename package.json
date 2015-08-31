@@ -1,0 +1,23 @@
+{
+  "name": "slack-rss",
+  "version": "1.0.0",
+  "description": "Create an RSS feed from links stored in your Slack channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gozman/slack-rss.git"
+  },
+  "keywords": [
+    "slack",
+    "rss"
+  ],
+  "author": "Mike Gozzo @gozmike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gozman/slack-rss/issues"
+  },
+  "homepage": "https://github.com/gozman/slack-rss"
+}
